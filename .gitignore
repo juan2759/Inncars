@@ -1,0 +1,24 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/**/__pycache__/
+backend/*.db
+backend/*.db-wal
+backend/*.db-shm
+backend/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Frontend build copiado al backend
+backend/static/
+
+# Uploads locales
+uploads/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
