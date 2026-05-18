@@ -1,0 +1,19 @@
+# Force LF line endings for shell scripts (prevents "bad interpreter: bash^M" on Linux/Render)
+*.sh text eol=lf
+
+# Standard settings for other file types
+*.py text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+
+# Binary files - no line ending conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
