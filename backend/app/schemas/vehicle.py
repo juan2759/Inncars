@@ -85,6 +85,8 @@ class VehicleListOut(BaseModel):
     color: Optional[str]
     kilometraje: int
     patente: Optional[str]
+    tipo_combustible: Optional[FuelType] = None
+    transmision: Optional[TransmissionType] = None
     precio_venta: float
     estado: VehicleStatus
     main_photo_url: Optional[str] = None

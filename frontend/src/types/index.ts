@@ -39,6 +39,8 @@ export interface VehicleListItem {
   color?: string
   kilometraje: number
   patente?: string
+  tipo_combustible?: FuelType
+  transmision?: TransmissionType
   precio_venta: number
   estado: VehicleStatus
   main_photo_url?: string
